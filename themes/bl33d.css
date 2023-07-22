@@ -1,0 +1,77 @@
+:root {
+  --c-bg: #171a37;
+  --c-bg-soft: #2c2243;
+  --c-fg: #c1a2e2;
+  --c-blood: #ff00a8;
+  --c-green-rot: #243b32;
+  --c-blue: #375372;
+  --c-blue-soft: #5a91a3;
+}
+
+:root {
+  --border: 0.4rem solid black;
+
+  --shadow-color: black;
+
+  --window-text: var(--c-black);
+  --window-bg: var(--c-bg-soft);
+
+  --window-title-color: var(--c-fg);
+  --window-title-focus-bg: var(--c-blue);
+  --window-title-inactive-bg: var(--c-bg-soft);
+
+  --button-text: var(--win95-c-black);
+
+  --taskbar-bg: var(--win95-c-gray);
+}
+
+body {
+  background: url(pentagram_tile.png);
+}
+
+.window {
+  border-radius: 0.6rem;
+  box-shadow: var(--shadow-color) 0.4rem 0.4rem;
+}
+
+.button {
+  background: var(--button-bg);
+}
+
+.window-title {
+  padding-left: 1rem;
+}
+
+.window-actions .icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.window-actions .close {
+  margin-left: 0.4rem;
+}
+
+.taskbar {
+  display: flex;
+  gap: 0.4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4.4rem;
+  padding: 0.4rem;
+  background-color: var(--taskbar-bg);
+  user-select: none;
+}
+
+.taskbar img.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.taskbar img.flag {
+  height: 1.8rem;
+  width: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+}
