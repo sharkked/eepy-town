@@ -1,8 +1,4 @@
 :root{
-  --icon-window-minimize: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10' stroke='currentColor'><path d='M0,5.5H10'/></svg>");
-  --icon-window-maximize: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10' fill='transparent' stroke='currentColor'><path d='m0.5,0.5h9v9h-9v-9'/></svg>");
-  --icon-window-close: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10' stroke='currentColor' stroke-width='1'><path d='m0,0l10,10zm0,10l10,-10z'/></svg>");
-
   --window-color: black;
   --window-bg: white;
   --window-border: black;
@@ -97,18 +93,6 @@ body {
   height: 1rem;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.window-actions .minimize .icon {
-  background-image: var(--icon-window-minimize);
-}
-
-.window-actions .maximize .icon {
-  background-image: var(--icon-window-maximize);
-}
-
-.window-actions .close .icon {
-  background-image: var(--icon-window-close);
 }
 
 .window .body {
