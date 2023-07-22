@@ -46,6 +46,10 @@ body {
   background-color: var(--c-mantle);
 }
 
+.button {
+  background: var(--button-bg);
+}
+
 .window {
   border-radius: 0.6rem;
   border-color: var(--border-color);
@@ -53,8 +57,8 @@ body {
   box-shadow: var(--shadow-color) 0.4rem 0.4rem;
 }
 
-.button {
-  background: var(--button-bg);
+.window .titlebar {
+  background-color: var(--c-crust);
 }
 
 .window-title {
@@ -66,8 +70,12 @@ body {
   background-size: cover;
 }
 
-.window-actions .close {
-  margin-left: 0.4rem;
+.window-actions .button:hover {
+  background: var(--c-surface0);
+}
+
+.window-actions .button.close:hover {
+  background: var(--c-red);
 }
 
 .taskbar {
