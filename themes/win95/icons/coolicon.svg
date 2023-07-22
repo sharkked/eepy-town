@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14">
-  <path style="fill: #008080" d="m4,2h4v-1h1v1h1v1h1v1h1v1h1v6h-10v-8" />
-  <path style="fill: #00ffff" d="m3,1h2v1h-1v1h-1m0,4h-2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v2m-5,6h1v3h-1"/>
-  <path style="fill: #000000" d="m3,6h1v-1h1v-1h1v-1h1v-1h1v1h-1v1h-1v1h-1v1h-1v1h-1 m0,4h7v-2h1v-1h5v3h-1v1h-1v1h-1v1h-5v-1h-2v-1h-3"/>
-  <path style="fill: #808000" d="m5,6h1v4h6v-4h-1v-1h-1v-1h-2v-1h3v1h3v1h1v2h1v3h-1v1h-1v1h-1v1h-5v-1h-2v-1h-1 m4,2 h1v-1h-1 m2,0 v1h1v-1h1v-1h1v-1h1v-1h1v-1h-1"/>
-  <path style="fill: #ffff00" d="m5,8h1v1h1v1h2v1h1v-1h1v-1h1v-4h-1v-1h-1v-1h2v1h1v1h1v1h1v3h-1v1h-1v1h-1v1h-3v-1h-1v1h-1v-1h-1v-1h-1z m5,3v1h1v-1h1v-1h1v-1h1v-1h1v-1h-1v1h-1v1h-1v1h-1v1"/>
-</svg>
